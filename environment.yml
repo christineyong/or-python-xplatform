@@ -1,0 +1,12 @@
+name: or_training
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - coin-or-cbc
+  - python=3.8
+  - numpy
+  - scipy
+  - pip
+  - pip:
+    - cylp
