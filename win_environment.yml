@@ -1,0 +1,12 @@
+name: or_training
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - scipy
+  - pytest
+  - pip
+  - pip:
+    - cylp
