@@ -4,7 +4,7 @@ This repository contains scripts for the easy installation of the [Cbc solver](h
 # Usage
 1. Ensure that you have Anaconda or miniconda installed *and* either:
     1. Added to your `PATH` (Unix-like systems), *OR* 
-    1. You have Anaconda Prompt installed (Windows systems)
+    1. You have Anaconda Powershell Prompt installed (Windows systems)
 1. Clone this repository by running the following in your command prompt:
     
     ```git clone https://github.com/christineyong/or-python-xplatform.git```
