@@ -26,6 +26,8 @@ This repository contains scripts for the easy installation of the [Cbc solver](h
 ## Linux
 Installation on Linux is the simplest, so I have not created the scripts or instructions for installation on this OS.
 
+Please consult the [Cbc solver](https://github.com/coin-or/Cbc) and [CyLP](https://github.com/coin-or/CyLP) GitHub pages for instructions.
+
 ## Windows
 1. In the Anaconda Powershell Prompt, descend into the `or-python-xplatform` directory you cloned.
 1. Run `.\cfg_win32.bat`. If prompted for a password, press Enter to skip. The `bat` file will download and run the latest COIN-OR installer at the time of writing. Complete the installation using all defaults and click "Yes" to all pop-ups. The script will continue after COIN-OR installation is done.
