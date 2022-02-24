@@ -15,13 +15,13 @@ This repository contains scripts for the easy installation of the [Cbc solver](h
 1. In your favourite terminal, descend into the `or-python-xplatform` directory you cloned.
 1. Run `bash cfg_macos_arm64.sh`.
 1. Re-start your terminal and run `conda activate or_training`.
-1. Run `pytest` to verify that everything has been installed correctly.
+1. Run `pytest` in the `or-python-xplatform` directory to verify that everything has been installed correctly.
 
 ## macOS on Intel Macbooks (x86-64 architecture)
 1. In your favourite terminal, descend into the `or-python-xplatform` directory you cloned.
 1. Run `bash cfg_macos_intel.sh`.
 1. Re-start your terminal and run `conda activate or_training`.
-1. Run `pytest` to verify that everything has been installed correctly.
+1. Run `pytest` in the `or-python-xplatform` directory to verify that everything has been installed correctly.
 
 ## Linux
 Installation on Linux is the simplest, so I have not created the scripts or instructions for installation on this OS.
@@ -30,4 +30,4 @@ Installation on Linux is the simplest, so I have not created the scripts or inst
 1. In the Anaconda Powershell Prompt, descend into the `or-python-xplatform` directory you cloned.
 1. Run `.\cfg_win32.bat`. If prompted for a password, press Enter to skip. The `bat` file will download and run the latest COIN-OR installer at the time of writing. Complete the installation this using all defaults and click "Yes" to all pop-ups. The script will continue after COIN-OR installation is done.
 1. Re-start Anaconda Powershell Prompt and run `conda activate or_training`.
-1. Run `pytest` to verify that everything has been installed correctly.
+1. Run `pytest` in the `or-python-xplatform` directory to verify that everything has been installed correctly.
