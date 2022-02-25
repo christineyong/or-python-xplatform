@@ -1,7 +1,8 @@
 # OR in Python with Cbc & CyLP
-This repository contains scripts for the easy installation of the [Cbc solver](https://github.com/coin-or/Cbc) and [CyLP](https://github.com/coin-or/CyLP) into a new `conda` environment. CyLP is a Python interface to COIN-OR’s Linear and mixed-integer program solvers.
+This repository contains scripts for the easy installation of the [Cbc solver](https://github.com/coin-or/Cbc) and [CyLP](https://github.com/coin-or/CyLP) into a new `conda` environment. CyLP is a Python interface to COIN-OR’s Linear and mixed-integer program solvers. To use this repository, we will expect you to know how to open Terminal in macOS or Command Prompt or Anaconda Powershell in Windows, and how to use git in the command line.
 
 # Usage
+1. Ensure you have git SCM installed.
 1. Ensure that you have Anaconda or miniconda installed *and* either:
     1. Added to your `PATH` (Unix-like systems), *OR* 
     1. You have Anaconda Powershell Prompt installed (Windows systems)
