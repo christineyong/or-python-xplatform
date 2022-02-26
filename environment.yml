@@ -4,6 +4,9 @@ channels:
   - defaults
 dependencies:
   - python=3.8
+  - nb_conda_kernels
+  - jupyter
+  - notebook
   - ipykernel
   - coin-or-cbc
   - numpy
