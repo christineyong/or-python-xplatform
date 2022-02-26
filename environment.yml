@@ -3,8 +3,9 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - coin-or-cbc
   - python=3.8
+  - ipykernel
+  - coin-or-cbc
   - numpy
   - scipy
   - pytest
